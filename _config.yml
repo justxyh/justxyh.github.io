@@ -11,12 +11,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
-RSS: false
-# weibo_username:     huxpro
+RSS: true
+weibo_username:     huxpro
 zhihu_username:     justxyh
 github_username:    justxyh
-#twitter_username:  huxpro
-# facebook_username:  huxpro
+
 
 
 
@@ -64,7 +63,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-about-description: "扫一扫上面的二维码图案，加我微信"
 sidebar-avatar: /img/weichat-qrcode.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
