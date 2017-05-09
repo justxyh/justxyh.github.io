@@ -7,7 +7,8 @@ author:     "JUSTXYH"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 生活
-    - 新tag
+    - 杂七杂八
+    - 随笔
 ---
 
 ## About
