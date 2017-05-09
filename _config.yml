@@ -11,7 +11,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
-RSS: true
+RSS: false
 
 
 
@@ -51,6 +51,8 @@ disqus_username: justxyh
 
 
 # Analytics settings
+google_analytics: UA-83050950-1
+
 # Baidu Analytics
 ba_track_id: 
 # Google Analytics
