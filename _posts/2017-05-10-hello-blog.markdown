@@ -4,7 +4,7 @@ title:      "Welcome to JustXYH Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-05-10
 author:     "JUSTXYH"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/post-bg-2017-05-10.jpg"
 tags:
     - 生活
     - 杂七杂八
