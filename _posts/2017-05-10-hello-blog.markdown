@@ -8,10 +8,9 @@ header-img: "img/in-post/post-bg-2017-05-10.jpg"
 tags:
     - 生活
     - 杂七杂八
-    - 随笔
 ---
 
-## About
+# About
 
 JustXYH 的 Blog 就这么开通了。
 
