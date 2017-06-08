@@ -6,8 +6,10 @@ date:       2017-05-10
 author:     "JUSTXYH"
 header-img: "img/in-post/post-bg-2017-05-10.jpg"
 tags:
+    - 技术
     - 生活
     - 杂七杂八
+    
 ---
 
 # About

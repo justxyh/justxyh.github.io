@@ -2,12 +2,12 @@
 layout:     post
 title:      "百度音乐API"
 subtitle:   ""
-date:       2017-05-10
+date:       2017-06-08
 author:     "JUSTXYH"
 header-img: "img/in-post/post-bg-2017-06-08.jpg"
 tags:
     - API
-    - 青花瓷
+    - 技术
     - iOS
 ---
 
