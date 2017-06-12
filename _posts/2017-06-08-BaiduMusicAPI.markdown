@@ -6,9 +6,10 @@ date:       2017-06-08
 author:     "JUSTXYH"
 header-img: "img/in-post/post-bg-2017-06-08.jpg"
 tags:
-    - API
-    - 技术
     - iOS
+    - 技术
+    - API
+
 ---
 
 # 百度音乐API总结
