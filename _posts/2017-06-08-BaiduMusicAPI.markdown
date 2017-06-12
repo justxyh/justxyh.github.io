@@ -19,7 +19,7 @@ tags:
 
 本文总结的接口均使用GET请求，亲测可用，希望能帮到想自己实现一下音乐播放器的同学。
 
-##1.1 搜索建议
+## 1.1 搜索建议
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.search.catalogSug&query=
 
 | 字段           | 说明          |
