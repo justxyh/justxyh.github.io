@@ -12,7 +12,7 @@ tags:
 
 ---
 
-# 百度音乐API总结
+# 百度音乐API总结 #
 
 使用青花瓷截包，获取百度音乐部分API，基本能够满足制作一个简单的访百度音乐的APP使用。
 
@@ -20,20 +20,29 @@ tags:
 
 本文总结的接口均使用GET请求，亲测可用，希望能帮到想自己实现一下音乐播放器的同学。
 
+<<<<<<< Updated upstream
 ## 1.1 搜索建议
+=======
+##1.1 搜索建议##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.search.catalogSug&query=
 
 | 字段           | 说明          |
 | ------------- | ------------- |
 | query         | 搜索关键字      | 
 
+<<<<<<< Updated upstream
 ## 1.2 搜索
+=======
+##1.2 搜索##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.search.common&query=
 
 | 字段           | 说明          |
 | ------------- | ------------- |
 | query         | 搜索关键字      | 
 
+<<<<<<< Updated upstream
 ## 2.1 推荐
 https://musicapi.qianqian.com/v1/restserver/ting?method=baidu.ting.plaza.index&channel=c8ce05a8404708959360e95bb6fe144333aeb1e7&cuid=appstore&from=ios&version=
 
@@ -41,6 +50,15 @@ https://musicapi.qianqian.com/v1/restserver/ting?method=baidu.ting.plaza.index&c
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.tag.getAllTag
 
 ## 3.2 分类歌曲列表
+=======
+##2.1 推荐##
+https://musicapi.qianqian.com/v1/restserver/ting?method=baidu.ting.plaza.index&channel=c8ce05a8404708959360e95bb6fe144333aeb1e7&cuid=appstore&from=ios&version=
+
+##3.1 歌曲分类##
+http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.tag.getAllTag
+
+##3.2 分类歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.tag.songlist&tagname=&limit=&offset=
 
 | 字段           | 说明           |
@@ -49,10 +67,17 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.tag.songlist&
 | limit         | 分页数量      | 
 | offset        | 分页偏移量      | 
 
+<<<<<<< Updated upstream
 ## 4.1 榜单
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.billboard.billCategory
 
 ## 4.2 榜单歌曲列表
+=======
+##4.1 榜单##
+http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.billboard.billCategory
+
+##4.2 榜单歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.billboard.billList&type=&offset=&size=
 
 | 字段           | 说明           |
@@ -61,7 +86,11 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.billboard.bil
 | size         | 分页数量       | 
 | offset        | 分页偏移量      | 
 
+<<<<<<< Updated upstream
 ## 5.1 电台
+=======
+##5.1 电台##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?from=ios&method=baidu.ting.scene.getCategoryScene&category_id=
 
 | 字段           | 说明           |
@@ -78,7 +107,11 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?from=ios&method=baidu.ting.scen
 | 5             | 年代            | 
 | 6             | 曲风            | 
 
+<<<<<<< Updated upstream
 ## 5.2 电台歌曲列表
+=======
+##5.2 电台歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.song.getSmartSongList&scene_id=&page_no=&page_size=
 
 | 字段           | 说明           |
@@ -87,7 +120,11 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.song.getSmart
 | page_no   | 分页         | 
 | page_size   | 分页数量         | 
 
+<<<<<<< Updated upstream
 ## 6.1 歌手
+=======
+##6.1 歌手##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.artist.getList&area=&sex=&abc=&limit=&offset=
 
 | 字段           | 说明           |
@@ -98,7 +135,11 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.artist.getLis
 | limit         | 分页数量      | 
 | offset        | 分页偏移量      | 
 
+<<<<<<< Updated upstream
 ## 6.2 歌手歌曲列表
+=======
+##6.2 歌手歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.artist.getSongList&tinguid=&offset=&limits=
 
 | 字段           | 说明           |
@@ -107,7 +148,11 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.artist.getSon
 | limits         | 分页数量      | 
 | offset        | 分页偏移量      | 
 
+<<<<<<< Updated upstream
 ## 7.1 专辑
+=======
+##7.1 专辑##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.plaza.getRecommendAlbum&tagname=&offset=&limit=
 
 | 字段           | 说明           |
@@ -116,14 +161,22 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.plaza.getReco
 | limit         | 分页数量      | 
 | offset        | 分页偏移量      | 
 
+<<<<<<< Updated upstream
 ## 7.2 专辑歌曲列表
+=======
+##7.2 专辑歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.album.getAlbumInfo&album_id=
 
 | 字段           | 说明           |
 | ------------- | -------------  |
 | album_id       | 专辑ID 由7.1获取 | 
 
+<<<<<<< Updated upstream
 ## 8.1 歌单
+=======
+##8.1 歌单##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.diy.search&page_no=&page_size=&query=
 
 | 字段           | 说明           |
@@ -133,14 +186,22 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.diy.search&pa
 | page_size   | 分页数量         | 
 
 
+<<<<<<< Updated upstream
 ## 8.2 歌单歌曲列表
+=======
+##8.2 歌单歌曲列表##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.diy.gedanInfo&listid=
 
 | 字段           | 说明           |
 | ------------- | -------------  |
 | listid       | 歌单ID 由8.1获取  |
 
+<<<<<<< Updated upstream
 ## 9.1  MV
+=======
+##9.1  MV##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.mv.searchMV&page_num=&page_size=&query=&order=
 
 | 字段           | 说明           |
@@ -150,14 +211,22 @@ http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.mv.searchMV&p
 | page_num   | 分页         | 
 | page_size   | 分页数量         | 
 
+<<<<<<< Updated upstream
 ## 9.2 MV详情
+=======
+##9.2 MV详情##
+>>>>>>> Stashed changes
 http://tingapi.ting.baidu.com/v1/restserver/ting?method=baidu.ting.mv.playMV&mv_id=
 
 | 字段           | 说明           |
 | ------------- | -------------  |
 | mv_id       | MVID  由9.1获取       | 
 
+<<<<<<< Updated upstream
 ## 10.1 歌曲详情
+=======
+##10.1 歌曲详情##
+>>>>>>> Stashed changes
 http://ting.baidu.com/data/music/links?songIds=
 
 | 字段           | 说明           |
