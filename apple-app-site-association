@@ -1,3 +1,6 @@
-{"webcredentials": {"apps": ["SQVPLJE24J.Com.BaiLun.Authentication"]
-    }
+{
+"webcredentials": {"apps": ["SQVPLJE24J.Com.BaiLun.Authentication"]}
+"applinks":{"apps": [],
+            "details": [{"appID": "SQVPLJE24J.Com.BaiLun.Authentication"
+                         "paths": ["*"]}]}
 }
